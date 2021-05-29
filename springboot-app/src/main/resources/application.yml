@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: patients_record
+    
+eureka:
+    client:
+      serviceurl:
+        defaultZone: http://localhost:1111/eureka/
+        
+server:
+  port: 2222
+  
+  
+error:
+  whitelabel:
+    enabled: false
+      
